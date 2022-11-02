@@ -1,5 +1,7 @@
 # Connect to Raspberry Pi OS via VNC using Remmina
 
+tutorial based on [Connect to Raspberry Pi OS via VNC using Remmina](https://docs.linuxconsulting.mn.it/notes/remmina-vnc-raspberry)
+
 RealVNC only supports a few security schemes. Authentication=VncAuth seems to be the only scheme that allows direct connections from VNC-compatible Viewer projects from third parties. In order to change to VncAuth scheme in your Raspbian and set a password to accept connections from Remmina VNC plugin, open a SSH session (or a terminal window) on the Raspberry and generate your VNC password with:
 
 ```
